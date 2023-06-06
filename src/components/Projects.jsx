@@ -2,6 +2,7 @@ import React from "react";
 
 import landingbewakoof from "../assets/portfolio/Bewakoof/Landing.png";
 import landingnykaa from "../assets/portfolio/Nykaa/Landing.png";
+import Stats from "./Stats";
 
 import ImageSlider from "./ImageSlider";
 import {

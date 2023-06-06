@@ -7,25 +7,29 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 import useReady from "./components/useReady";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
-  const {ready} = useReady(3800);
+  const { ready } = useReady(3800);
   return (
-    <div>
-  {
-    ready!==true?<LoadingPage/>:
-    <div >
-    <NavBar />
-    <Home />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
-    <SocialLinks />
-    </div>
-  }
-  </div>
-    );
+    <ChakraProvider>
+      <div>
+        {ready !== true ? (
+          <LoadingPage />
+        ) : (
+          <div>
+            <NavBar />
+            <Home />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+            <SocialLinks />
+          </div>
+        )}
+      </div>
+    </ChakraProvider>
+  );
 }
 
 export default App;
