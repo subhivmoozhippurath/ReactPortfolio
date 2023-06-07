@@ -2,14 +2,18 @@ import React from "react";
 
 import landingbewakoof from "../assets/portfolio/Bewakoof/Landing.png";
 import landingnykaa from "../assets/portfolio/Nykaa/Landing.png";
-import Stats from "./Stats";
+import landingVotek from "../assets/portfolio/Votek/Landing.png";
 
 import ImageSlider from "./ImageSlider";
 import {
   SiCss3,
+  SiFirebase,
   SiHtml5,
   SiJavascript,
+  SiNodedotjs,
+  SiNodemon,
   SiReact,
+  SiReactrouter,
   SiRedux,
 } from "react-icons/si";
 
@@ -232,6 +236,140 @@ const Projects = () => {
               <img
                 className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer "
                 src={landingnykaa}
+                alt="logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* votek */}
+      <div className="max-w-screen-lg  mx-auto px-2 shadow-xl shadow-gray-600 mt-10  ">
+        <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  ">
+          <div className="px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full">
+            <div className="block lg:hidden">
+              <ImageSlider
+                data={landingVotek}
+                imgStyle={style_md}
+                data-aos="fade-up"
+              />
+            </div>
+            <h1
+              className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl"
+              data-aos="fade-right"
+            >
+              Votek
+            </h1>
+            <h1
+              className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl"
+              data-aos="fade-right"
+            >
+              Live Voting App
+            </h1>
+            <p
+              className="w-full  mt-2 text-gray-600 sm:mt-2 sm:text-xl"
+              data-aos="fade-right"
+            >
+              Votek is an live voting app, where you can create poll (Admin) and
+              vote for the poll(user). We have used firebase live database and
+              socket.io to reflet live data and responsive design for better
+              user experiance.
+            </p>
+            <div
+              className="flex justify-center items-center gap-x-2 mt-5"
+              data-aos="zoom-out"
+            >
+              <div>
+                <SiJavascript
+                  size="32px"
+                  color="yellow"
+                  className="hover:animate-bounce hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiReact
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiRedux
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiNodedotjs
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiNodemon
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiReactrouter
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiFirebase
+                  size="32px"
+                  color="#61DBFB"
+                  className="hover:animate-spin hover:cursor-pointer"
+                />
+              </div>
+
+              {/* <div>
+                <SiHtml5
+                  size="32px"
+                  color="#e34c26"
+                  className="hover:animate-bounce hover:cursor-pointer"
+                />
+              </div>
+              <div>
+                <SiCss3
+                  size="32px"
+                  color="#264de4"
+                  className="hover:animate-bounce hover:cursor-pointer"
+                />
+              </div> */}
+            </div>
+            <div className="max-w-screen-md flex justify-center space-x-6">
+              <div className="mt-4 sm:mt-6" data-aos="zoom-out">
+                <a
+                  href="https://github.com/masai-builds/Votek"
+                  target={"_blank"}
+                >
+                  <button className="inline-block px-4 py-2 rounded-lg  hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointershadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                    {" "}
+                    Code
+                  </button>
+                </a>
+              </div>
+              <div className="mt-4 sm:mt-6" data-aos="zoom-out">
+                <a href="https://votekmasai.netlify.app/" target={"_blank"}>
+                  <button className="inline-block px-4 py-2 rounded-lg hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="hidden relative lg:block " data-aos="fade-left">
+            <a href="https://votekmasai.netlify.app/" target={"_blank"}>
+              <img
+                className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer "
+                src={landingVotek}
                 alt="logo"
               />
             </a>
