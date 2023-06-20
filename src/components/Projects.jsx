@@ -217,7 +217,7 @@ const Projects = () => {
               </div>
               <div className="mt-4 sm:mt-6" data-aos="zoom-out">
                 <a
-                  href="https://ornate-crisp-dcdfaa.netlify.app/"
+                  href="https://inquisitive-nasturtium-40591a.netlify.app/"
                   target={"_blank"}
                 >
                   <button className="inline-block px-4 py-2 rounded-lg hover:opacity-70 bg-gradient-to-r from-cyan-400 to-blue-500 cursor-pointer shadow-lg uppercase tracking-wide font-semibold text-sm text-white sm:text-base">
@@ -230,7 +230,7 @@ const Projects = () => {
 
           <div className="hidden relative lg:block " data-aos="fade-left">
             <a
-              href="https://ornate-crisp-dcdfaa.netlify.app/"
+              href="https://inquisitive-nasturtium-40591a.netlify.app/"
               target={"_blank"}
             >
               <img

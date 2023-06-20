@@ -14,19 +14,13 @@ function App() {
   return (
     <ChakraProvider>
       <div>
-        {ready !== true ? (
-          <LoadingPage />
-        ) : (
-          <div>
-            <NavBar />
-            <Home />
-            <About />
-            <Skills />
-            <Projects />
-            <Contact />
-            <SocialLinks />
-          </div>
-        )}
+        <NavBar />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <SocialLinks />
       </div>
     </ChakraProvider>
   );
