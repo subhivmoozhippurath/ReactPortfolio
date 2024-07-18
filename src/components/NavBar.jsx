@@ -33,7 +33,7 @@ const NavBar = () => {
       <div>
         <Link to="home" smooth duration={1000}>
           <h1 className="text-5xl font-signature ml-2 capitalize">
-            Arun Saradgi
+            Subhi V M
           </h1>
         </Link>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/profilepic.jpg";
 import { GoMarkGithub } from "react-icons/go";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,16 +22,16 @@ const Home = () => {
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
             I'm <br />{" "}
             <span className=" text-blue-400 animate-none md:animate-pulse z-0 ">
-              Arun Saradgi
+              Subhi V M
             </span>
-            <br /> Full Stack Web Developer
+            <br /> React Developer
           </h2>
           <p className="text-gray-500 text-xl py-4 font-medium max-w-screen-sm">
-            Experienced full stack web developer proficient in front-end and
-            back-end technologies. Expertise in HTML, CSS, JavaScript, React,
-            Redux, Node. Committed in delivering high-quality, user-centric web
-            applications.
-          </p>
+          Skilled React Developer with 2 years of experience in building 
+          and optimizing web applications. Proficient in creating high-quality,
+           scalable, and responsive front-end solutions. Strong collaborator
+            with a focus on user-centric design and performance. 
+            Passionate about using modern JavaScript frameworks to enhance user experience.          </p>
 
           <div className="max-w-screen-lg mx-auto ">
             <div
@@ -39,13 +39,13 @@ const Home = () => {
               data-aos="fade-up"
             >
               <div>
-                <a href="https://github.com/arunsaradgi" target="_blank">
+                <a href="https://github.com/subhivmoozhippurath" target="_blank">
                   <GoMarkGithub size="38px" color="white" />
                 </a>
               </div>
               <div>
                 <a
-                  href="https://www.linkedin.com/in/arunsaradgi/"
+                  href="https://www.linkedin.com/in/subhi-v-m-850941202/"
                   target="_blank"
                 >
                   <img
@@ -58,7 +58,7 @@ const Home = () => {
 
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1tRkUXlOCqF9ENZZH3wk5JbYAcPkKrTU0/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Sb1zFxSjpr-GW3cN8_r1ZbSXc5ZK60cl/view?usp=sharing"
                   smooth
                   target="_blank"
                   className="group text-white w-fit px-6 py-2 my-2 text-sm overflow-hidden flex items-center rounded-md bg-gradient-to-r from-orange-400 to-green-500 cursor-pointer md:py-3"

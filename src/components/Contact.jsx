@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold ">Phone :</h1>
-                <h1 className="text-xl text-gray-500 ">+91 9353427253</h1>
+                <h1 className="text-xl text-gray-500 ">+91 9048658262</h1>
               </div>
             </div>
             <div
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold">Email :</h1>
-                <h1 className="text-xl text-gray-500">saradgi07@gmail.com</h1>
+                <h1 className="text-xl text-gray-500">vmsubhi@gmail.com</h1>
               </div>
             </div>
             <div
@@ -61,7 +61,7 @@ const Contact = () => {
             >
               <div>
                 <a
-                  href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9539974,77.6309395,11z/data=!3m1!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627!16zL20vMDljMTc?entry=ttu"
+                  href="https://maps.app.goo.gl/HSzhmSyrRAdYqoXG7"
                   target="_blank"
                 >
                   <FaMapMarkerAlt
@@ -73,7 +73,7 @@ const Contact = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold">Address :</h1>
-                <h1 className="text-xl  text-gray-500">Bengaluru,Karnataka </h1>
+                <h1 className="text-xl  text-gray-500">calicut,Kerala </h1>
               </div>
             </div>
           </div>

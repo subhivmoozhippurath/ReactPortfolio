@@ -53,12 +53,12 @@ const Skills = () => {
       style: "shadow-purple-600",
     },
 
-    {
-      id: 6,
-      src: chakra,
-      title: "Chakra UI",
-      style: "shadow-cyan-400",
-    },
+    // {
+    //   id: 6,
+    //   src: chakra,
+    //   title: "Chakra UI",
+    //   style: "shadow-cyan-400",
+    // },
 
     {
       id: 7,
@@ -67,12 +67,12 @@ const Skills = () => {
       style: "shadow-blue-400",
     },
 
-    {
-      id: 8,
-      src: jest,
-      title: "Jest",
-      style: "shadow-orange-400",
-    },
+    // {
+    //   id: 8,
+    //   src: jest,
+    //   title: "Jest",
+    //   style: "shadow-orange-400",
+    // },
     {
       id: 9,
       src: node,

@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/arunsaradgi/",
+      href: "https://www.linkedin.com/in/subhi-v-m-850941202",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/arunsaradgi",
+      href: "https://github.com/subhivmoozhippurath",
     },
     {
       id: 3,
@@ -40,7 +40,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Arun_Saradgi_Resume.pdf",
+      href:"https://drive.google.com/file/d/1Sb1zFxSjpr-GW3cN8_r1ZbSXc5ZK60cl/view?usp=sharing",
+
+      // href: "/Arun_Saradgi_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
